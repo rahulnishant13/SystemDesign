@@ -1,0 +1,846 @@
+[2025-03-22T20:18:47.573+0530][0.024s][info][gc] Using G1
+[2025-03-22T20:18:47.576+0530][0.027s][info][gc,init] Version: 17.0.12+8-LTS-286 (release)
+[2025-03-22T20:18:47.576+0530][0.028s][info][gc,init] CPUs: 8 total, 8 available
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Memory: 8043M
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Large Page Support: Disabled
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] NUMA Support: Disabled
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Compressed Oops: Enabled (32-bit)
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Heap Region Size: 1M
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Heap Min Capacity: 8M
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Heap Initial Capacity: 126M
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Heap Max Capacity: 2012M
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Pre-touch: Disabled
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Parallel Workers: 8
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Concurrent Workers: 2
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Concurrent Refinement Workers: 8
+[2025-03-22T20:18:47.577+0530][0.028s][info][gc,init] Periodic GC: Disabled
+[2025-03-22T20:18:47.595+0530][0.046s][info][gc,metaspace] CDS archive(s) mapped at: [0x0000020123000000-0x0000020123bd0000-0x0000020123bd0000), size 12386304, SharedBaseAddress: 0x0000020123000000, ArchiveRelocationMode: 1.
+[2025-03-22T20:18:47.595+0530][0.046s][info][gc,metaspace] Compressed class space mapped at: 0x0000020124000000-0x0000020164000000, reserved size: 1073741824
+[2025-03-22T20:18:47.595+0530][0.046s][info][gc,metaspace] Narrow klass base: 0x0000020123000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2025-03-22T20:18:48.688+0530][1.139s][info][gc,start    ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2025-03-22T20:18:48.688+0530][1.140s][info][gc,task     ] GC(0) Using 3 workers of 8 for evacuation
+[2025-03-22T20:18:48.696+0530][1.147s][info][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.1ms
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)     Prepare TLABs: 0.0ms
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)     Concatenate Dirty Card Logs: 0.0ms
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)     Choose Collection Set: 0.0ms
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)     Region Register: 0.1ms
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)     Prepare Heap Roots: 0.0ms
+[2025-03-22T20:18:48.696+0530][1.147s][info ][gc,phases   ] GC(0)   Merge Heap Roots: 0.1ms
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)     Prepare Merge Heap Roots: 0.1ms
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)     Eager Reclaim (ms):            skipped
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)     Remembered Sets (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)       Merged Sparse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)       Merged Fine:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)       Merged Coarse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)     Hot Card Cache (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.147s][debug][gc,phases   ] GC(0)     Log Buffers (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.148s][debug][gc,phases   ] GC(0)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.148s][debug][gc,phases   ] GC(0)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.696+0530][1.148s][info ][gc,phases   ] GC(0)   Evacuate Collection Set: 6.0ms
+[2025-03-22T20:18:48.696+0530][1.148s][debug][gc,phases   ] GC(0)     Ext Root Scanning (ms):        Min:  0.5, Avg:  0.8, Max:  1.2, Diff:  0.7, Sum:  2.3, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)     Scan Heap Roots (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)       Scanned Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)       Scanned Blocks:                Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)       Claimed Chunks:                Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)     Code Root Scan (ms):           Min:  0.0, Avg:  0.3, Max:  0.9, Diff:  0.9, Sum:  0.9, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)     Object Copy (ms):              Min:  4.4, Avg:  4.8, Max:  5.2, Diff:  0.9, Sum: 14.3, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)     Termination (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)       Termination Attempts:          Min: 1, Avg:  6.0, Max: 12, Diff: 11, Sum: 18, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)     GC Worker Other (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)     GC Worker Total (ms):          Min:  5.9, Avg:  5.9, Max:  5.9, Diff:  0.0, Sum: 17.7, Workers: 3
+[2025-03-22T20:18:48.697+0530][1.148s][info ][gc,phases   ] GC(0)   Post Evacuate Collection Set: 1.0ms
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)     Code Roots Fixup: 0.1ms
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)     Reference Processing: 0.2ms
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)     Weak Processing: 0.5ms
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)       VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)         Total                          Min: 0, Avg: 11.5, Max: 64, Diff: 64, Sum: 92, Workers: 8
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)       ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)         Dead                           Min: 0, Avg:  0.2, Max: 2, Diff: 2, Sum: 2, Workers: 8
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)         Total                          Min: 0, Avg:  0.8, Max: 6, Diff: 6, Sum: 6, Workers: 8
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)       JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:48.697+0530][1.148s][debug][gc,phases   ] GC(0)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.697+0530][1.149s][debug][gc,phases   ] GC(0)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       StringTable Weak               Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.1, Sum:  0.3, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Dead                           Min: 0, Avg:  2.1, Max: 8, Diff: 8, Sum: 17, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Total                          Min: 0, Avg: 924.8, Max: 2342, Diff: 2342, Sum: 7398, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Dead                           Min: 0, Avg:  1.0, Max: 6, Diff: 6, Sum: 8, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Total                          Min: 0, Avg: 64.6, Max: 128, Diff: 128, Sum: 517, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Total                          Min: 0, Avg:  0.1, Max: 1, Diff: 1, Sum: 1, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)     Post Evacuate Cleanup 1: 0.1ms
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       Merge Per-Thread State (ms):   Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         Copied Bytes                   Min: 1029080, Avg: 1596512.0, Max: 2421520, Diff: 1392440, Sum: 4789536, Workers: 3
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         LAB Waste                      Min: 896, Avg: 2293.3, Max: 3320, Diff: 2424, Sum: 6880, Workers: 3
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)         LAB Undo Waste                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       Clear Logged Cards (ms):       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       Recalculate Used Memory (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)     Post Evacuate Cleanup 2: 0.1ms
+[2025-03-22T20:18:48.698+0530][1.149s][debug][gc,phases   ] GC(0)       Reset Hot Card Cache (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:48.698+0530][1.150s][debug][gc,phases   ] GC(0)       Purge Code Roots (ms):         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:48.698+0530][1.150s][debug][gc,phases   ] GC(0)       Update Derived Pointers (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:48.698+0530][1.150s][debug][gc,phases   ] GC(0)       Redirty Logged Cards (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:48.699+0530][1.150s][debug][gc,phases   ] GC(0)         Redirtied Cards:               Min: 0, Avg: 867.7, Max: 2603, Diff: 2603, Sum: 2603, Workers: 3
+[2025-03-22T20:18:48.699+0530][1.150s][debug][gc,phases   ] GC(0)       Free Collection Set (ms):      Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.0, Sum:  0.1, Workers: 3
+[2025-03-22T20:18:48.699+0530][1.150s][debug][gc,phases   ] GC(0)     Rebuild Free List: 0.1ms
+[2025-03-22T20:18:48.699+0530][1.150s][debug][gc,phases   ] GC(0)     Start New Collection Set: 0.0ms
+[2025-03-22T20:18:48.699+0530][1.150s][debug][gc,phases   ] GC(0)     Resize TLABs: 0.0ms
+[2025-03-22T20:18:48.699+0530][1.150s][debug][gc,phases   ] GC(0)     Expand Heap After Collection: 0.0ms
+[2025-03-22T20:18:48.699+0530][1.150s][info ][gc,phases   ] GC(0)   Other: 0.5ms
+[2025-03-22T20:18:48.699+0530][1.150s][info ][gc,heap     ] GC(0) Eden regions: 23->0(29)
+[2025-03-22T20:18:48.699+0530][1.150s][info ][gc,heap     ] GC(0) Survivor regions: 0->3(3)
+[2025-03-22T20:18:48.699+0530][1.150s][info ][gc,heap     ] GC(0) Old regions: 0->2
+[2025-03-22T20:18:48.699+0530][1.150s][info ][gc,heap     ] GC(0) Archive regions: 0->0
+[2025-03-22T20:18:48.699+0530][1.150s][info ][gc,heap     ] GC(0) Humongous regions: 0->0
+[2025-03-22T20:18:48.699+0530][1.150s][info ][gc,metaspace] GC(0) Metaspace: 7035K(7232K)->7035K(7232K) NonClass: 6196K(6336K)->6196K(6336K) Class: 838K(896K)->838K(896K)
+[2025-03-22T20:18:48.699+0530][1.150s][info ][gc          ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 23M->4M(126M) 10.676ms
+[2025-03-22T20:18:48.699+0530][1.150s][info ][gc,cpu      ] GC(0) User=0.02s Sys=0.00s Real=0.01s
+[2025-03-22T20:18:49.367+0530][1.818s][info ][gc,start    ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2025-03-22T20:18:49.367+0530][1.818s][info ][gc,task     ] GC(1) Using 4 workers of 8 for evacuation
+[2025-03-22T20:18:49.376+0530][1.827s][info ][gc,phases   ] GC(1)   Pre Evacuate Collection Set: 0.1ms
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)     Prepare TLABs: 0.0ms
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)     Concatenate Dirty Card Logs: 0.0ms
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)     Choose Collection Set: 0.0ms
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)     Region Register: 0.1ms
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)     Prepare Heap Roots: 0.0ms
+[2025-03-22T20:18:49.376+0530][1.827s][info ][gc,phases   ] GC(1)   Merge Heap Roots: 0.1ms
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)     Prepare Merge Heap Roots: 0.0ms
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)     Eager Reclaim (ms):            skipped
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)     Remembered Sets (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)       Merged Sparse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)       Merged Fine:                   Min: 0, Avg:  1.5, Max: 2, Diff: 2, Sum: 6, Workers: 4
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)       Merged Coarse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)       Dirty Cards:                   Min: 0, Avg: 87.8, Max: 312, Diff: 312, Sum: 351, Workers: 4
+[2025-03-22T20:18:49.376+0530][1.827s][debug][gc,phases   ] GC(1)     Hot Card Cache (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2025-03-22T20:18:49.376+0530][1.828s][debug][gc,phases   ] GC(1)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2025-03-22T20:18:49.376+0530][1.828s][debug][gc,phases   ] GC(1)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2025-03-22T20:18:49.376+0530][1.828s][debug][gc,phases   ] GC(1)     Log Buffers (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)       Dirty Cards:                   Min: 279, Avg: 510.8, Max: 628, Diff: 349, Sum: 2043, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][info ][gc,phases   ] GC(1)   Evacuate Collection Set: 7.4ms
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)     Ext Root Scanning (ms):        Min:  0.4, Avg:  0.7, Max:  1.5, Diff:  1.2, Sum:  2.8, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)     Scan Heap Roots (ms):          Min:  0.0, Avg:  0.6, Max:  1.2, Diff:  1.2, Sum:  2.5, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)       Scanned Cards:                 Min: 0, Avg: 450.5, Max: 772, Diff: 772, Sum: 1802, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)       Scanned Blocks:                Min: 0, Avg: 55.2, Max: 94, Diff: 94, Sum: 221, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)       Claimed Chunks:                Min: 0, Avg: 21.2, Max: 34, Diff: 34, Sum: 85, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)     Code Root Scan (ms):           Min:  0.0, Avg:  0.4, Max:  0.7, Diff:  0.7, Sum:  1.5, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)     Object Copy (ms):              Min:  5.0, Avg:  5.7, Max:  6.3, Diff:  1.3, Sum: 22.7, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)     Termination (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)       Termination Attempts:          Min: 1, Avg:  1.0, Max: 1, Diff: 0, Sum: 4, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)     GC Worker Other (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)     GC Worker Total (ms):          Min:  7.4, Avg:  7.4, Max:  7.4, Diff:  0.0, Sum: 29.6, Workers: 4
+[2025-03-22T20:18:49.377+0530][1.828s][info ][gc,phases   ] GC(1)   Post Evacuate Collection Set: 0.8ms
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)     Code Roots Fixup: 0.1ms
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)     Reference Processing: 0.3ms
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)     Weak Processing: 0.2ms
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)       VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)         Total                          Min: 0, Avg: 18.1, Max: 64, Diff: 64, Sum: 145, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)       ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)         Total                          Min: 0, Avg:  2.4, Max: 19, Diff: 19, Sum: 19, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)       JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.828s][debug][gc,phases   ] GC(1)       StringTable Weak               Min:  0.0, Avg:  0.1, Max:  0.1, Diff:  0.1, Sum:  0.5, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.829s][debug][gc,phases   ] GC(1)         Dead                           Min: 0, Avg:  2.1, Max: 9, Diff: 9, Sum: 17, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.829s][debug][gc,phases   ] GC(1)         Total                          Min: 0, Avg: 1327.4, Max: 2304, Diff: 2304, Sum: 10619, Workers: 8
+[2025-03-22T20:18:49.377+0530][1.829s][debug][gc,phases   ] GC(1)       ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Dead                           Min: 0, Avg:  0.2, Max: 1, Diff: 1, Sum: 2, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Total                          Min: 0, Avg: 113.0, Max: 192, Diff: 192, Sum: 904, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)     Post Evacuate Cleanup 1: 0.1ms
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       Merge Per-Thread State (ms):   Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Copied Bytes                   Min: 1086984, Avg: 1410524.0, Max: 2106144, Diff: 1019160, Sum: 5642096, Workers: 4
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         LAB Waste                      Min: 464, Avg: 4254.0, Max: 9032, Diff: 8568, Sum: 17016, Workers: 4
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         LAB Undo Waste                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       Clear Logged Cards (ms):       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       Recalculate Used Memory (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)     Post Evacuate Cleanup 2: 0.1ms
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       Reset Hot Card Cache (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       Purge Code Roots (ms):         Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.0, Sum:  0.1, Workers: 1
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       Update Derived Pointers (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       Redirty Logged Cards (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)         Redirtied Cards:               Min: 0, Avg: 146.5, Max: 342, Diff: 342, Sum: 586, Workers: 4
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)       Free Collection Set (ms):      Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.1, Sum:  0.1, Workers: 4
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)     Rebuild Free List: 0.0ms
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)     Start New Collection Set: 0.0ms
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)     Resize TLABs: 0.0ms
+[2025-03-22T20:18:49.378+0530][1.829s][debug][gc,phases   ] GC(1)     Expand Heap After Collection: 0.0ms
+[2025-03-22T20:18:49.378+0530][1.829s][info ][gc,phases   ] GC(1)   Other: 0.2ms
+[2025-03-22T20:18:49.378+0530][1.829s][info ][gc,heap     ] GC(1) Eden regions: 28->0(72)
+[2025-03-22T20:18:49.378+0530][1.829s][info ][gc,heap     ] GC(1) Survivor regions: 3->3(4)
+[2025-03-22T20:18:49.378+0530][1.829s][info ][gc,heap     ] GC(1) Old regions: 2->5
+[2025-03-22T20:18:49.378+0530][1.829s][info ][gc,heap     ] GC(1) Archive regions: 0->0
+[2025-03-22T20:18:49.378+0530][1.829s][info ][gc,heap     ] GC(1) Humongous regions: 0->0
+[2025-03-22T20:18:49.378+0530][1.829s][info ][gc,metaspace] GC(1) Metaspace: 14170K(14400K)->14170K(14400K) NonClass: 12427K(12544K)->12427K(12544K) Class: 1743K(1856K)->1743K(1856K)
+[2025-03-22T20:18:49.378+0530][1.829s][info ][gc          ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 32M->7M(126M) 10.958ms
+[2025-03-22T20:18:49.378+0530][1.829s][info ][gc,cpu      ] GC(1) User=0.05s Sys=0.00s Real=0.01s
+[2025-03-22T20:18:50.334+0530][2.785s][info ][gc,start    ] GC(2) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2025-03-22T20:18:50.334+0530][2.785s][info ][gc,task     ] GC(2) Using 3 workers of 8 for evacuation
+[2025-03-22T20:18:50.344+0530][2.795s][info ][gc,phases   ] GC(2)   Pre Evacuate Collection Set: 0.1ms
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Prepare TLABs: 0.0ms
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Concatenate Dirty Card Logs: 0.0ms
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Choose Collection Set: 0.0ms
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Region Register: 0.0ms
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Prepare Heap Roots: 0.0ms
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Clear Claimed Marks: 0.0ms
+[2025-03-22T20:18:50.344+0530][2.795s][info ][gc,phases   ] GC(2)   Merge Heap Roots: 0.1ms
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Prepare Merge Heap Roots: 0.0ms
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Eager Reclaim (ms):            skipped
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Remembered Sets (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Merged Sparse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Merged Fine:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Merged Coarse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Hot Card Cache (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Log Buffers (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Dirty Cards:                   Min: 269, Avg: 291.7, Max: 326, Diff: 57, Sum: 875, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][info ][gc,phases   ] GC(2)   Evacuate Collection Set: 9.2ms
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Ext Root Scanning (ms):        Min:  0.7, Avg:  1.3, Max:  1.7, Diff:  1.0, Sum:  4.0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Scan Heap Roots (ms):          Min:  0.0, Avg:  0.7, Max:  1.4, Diff:  1.4, Sum:  2.0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Scanned Cards:                 Min: 0, Avg: 293.3, Max: 552, Diff: 552, Sum: 880, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Scanned Blocks:                Min: 0, Avg: 146.3, Max: 276, Diff: 276, Sum: 439, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)       Claimed Chunks:                Min: 0, Avg: 48.3, Max: 89, Diff: 89, Sum: 145, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Code Root Scan (ms):           Min:  0.0, Avg:  0.1, Max:  0.2, Diff:  0.2, Sum:  0.4, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Object Copy (ms):              Min:  6.6, Avg:  6.9, Max:  7.4, Diff:  0.7, Sum: 20.7, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.795s][debug][gc,phases   ] GC(2)     Termination (ms):              Min:  0.0, Avg:  0.1, Max:  0.1, Diff:  0.1, Sum:  0.2, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.796s][debug][gc,phases   ] GC(2)       Termination Attempts:          Min: 1, Avg:  1.0, Max: 1, Diff: 0, Sum: 3, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.796s][debug][gc,phases   ] GC(2)     GC Worker Other (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.796s][debug][gc,phases   ] GC(2)     GC Worker Total (ms):          Min:  9.1, Avg:  9.1, Max:  9.1, Diff:  0.0, Sum: 27.3, Workers: 3
+[2025-03-22T20:18:50.344+0530][2.796s][info ][gc,phases   ] GC(2)   Post Evacuate Collection Set: 0.5ms
+[2025-03-22T20:18:50.344+0530][2.796s][debug][gc,phases   ] GC(2)     Code Roots Fixup: 0.0ms
+[2025-03-22T20:18:50.344+0530][2.796s][debug][gc,phases   ] GC(2)     Reference Processing: 0.2ms
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)     Weak Processing: 0.1ms
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Total                          Min: 0, Avg: 25.9, Max: 128, Diff: 128, Sum: 207, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Dead                           Min: 0, Avg:  0.6, Max: 5, Diff: 5, Sum: 5, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Total                          Min: 0, Avg:  6.0, Max: 48, Diff: 48, Sum: 48, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       StringTable Weak               Min:  0.0, Avg:  0.1, Max:  0.1, Diff:  0.1, Sum:  0.6, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Dead                           Min: 0, Avg:  2.0, Max: 8, Diff: 8, Sum: 16, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Total                          Min: 0, Avg: 1829.0, Max: 2432, Diff: 2432, Sum: 14632, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Dead                           Min: 0, Avg:  0.6, Max: 3, Diff: 3, Sum: 5, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Total                          Min: 0, Avg: 149.9, Max: 256, Diff: 256, Sum: 1199, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Total                          Min: 0, Avg:  2.0, Max: 16, Diff: 16, Sum: 16, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)     Post Evacuate Cleanup 1: 0.1ms
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       Merge Per-Thread State (ms):   Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Copied Bytes                   Min: 1367256, Avg: 1810066.7, Max: 2132872, Diff: 765616, Sum: 5430200, Workers: 3
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         LAB Waste                      Min: 488, Avg: 1834.7, Max: 4184, Diff: 3696, Sum: 5504, Workers: 3
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         LAB Undo Waste                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 3
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       Clear Logged Cards (ms):       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       Recalculate Used Memory (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)     Post Evacuate Cleanup 2: 0.1ms
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       Reset Hot Card Cache (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       Purge Code Roots (ms):         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       Update Derived Pointers (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       Redirty Logged Cards (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)         Redirtied Cards:               Min: 0, Avg: 269.7, Max: 553, Diff: 553, Sum: 809, Workers: 3
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)       Free Collection Set (ms):      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 3
+[2025-03-22T20:18:50.345+0530][2.796s][debug][gc,phases   ] GC(2)     Rebuild Free List: 0.0ms
+[2025-03-22T20:18:50.345+0530][2.797s][debug][gc,phases   ] GC(2)     Start New Collection Set: 0.0ms
+[2025-03-22T20:18:50.345+0530][2.797s][debug][gc,phases   ] GC(2)     Resize TLABs: 0.0ms
+[2025-03-22T20:18:50.345+0530][2.797s][debug][gc,phases   ] GC(2)     Expand Heap After Collection: 0.0ms
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc,phases   ] GC(2)   Other: 0.3ms
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc,heap     ] GC(2) Eden regions: 31->0(69)
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc,heap     ] GC(2) Survivor regions: 3->6(10)
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc,heap     ] GC(2) Old regions: 5->5
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc,heap     ] GC(2) Archive regions: 0->0
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc,heap     ] GC(2) Humongous regions: 0->0
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc,metaspace] GC(2) Metaspace: 21258K(21504K)->21258K(21504K) NonClass: 18576K(18688K)->18576K(18688K) Class: 2681K(2816K)->2681K(2816K)
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc          ] GC(2) Pause Young (Concurrent Start) (Metadata GC Threshold) 38M->10M(126M) 11.896ms
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc,cpu      ] GC(2) User=0.00s Sys=0.00s Real=0.01s
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc          ] GC(3) Concurrent Mark Cycle
+[2025-03-22T20:18:50.345+0530][2.797s][info ][gc,marking  ] GC(3) Concurrent Clear Claimed Marks
+[2025-03-22T20:18:50.346+0530][2.797s][info ][gc,marking  ] GC(3) Concurrent Clear Claimed Marks 0.050ms
+[2025-03-22T20:18:50.346+0530][2.797s][info ][gc,marking  ] GC(3) Concurrent Scan Root Regions
+[2025-03-22T20:18:50.352+0530][2.803s][info ][gc,marking  ] GC(3) Concurrent Scan Root Regions 6.573ms
+[2025-03-22T20:18:50.352+0530][2.804s][info ][gc,marking  ] GC(3) Concurrent Mark
+[2025-03-22T20:18:50.353+0530][2.804s][info ][gc,marking  ] GC(3) Concurrent Mark From Roots
+[2025-03-22T20:18:50.353+0530][2.804s][info ][gc,task     ] GC(3) Using 2 workers of 2 for marking
+[2025-03-22T20:18:50.359+0530][2.810s][info ][gc,marking  ] GC(3) Concurrent Mark From Roots 6.750ms
+[2025-03-22T20:18:50.359+0530][2.811s][info ][gc,marking  ] GC(3) Concurrent Preclean
+[2025-03-22T20:18:50.360+0530][2.811s][info ][gc,marking  ] GC(3) Concurrent Preclean 0.250ms
+[2025-03-22T20:18:50.369+0530][2.820s][info ][gc,start    ] GC(3) Pause Remark
+[2025-03-22T20:18:50.369+0530][2.820s][debug][gc,phases   ] GC(3) Finalize Marking 0.111ms
+[2025-03-22T20:18:50.369+0530][2.820s][debug][gc,phases   ] GC(3) Reference Processing 0.066ms
+[2025-03-22T20:18:50.369+0530][2.820s][debug][gc,phases   ] GC(3)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.369+0530][2.820s][debug][gc,phases   ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.369+0530][2.820s][debug][gc,phases   ] GC(3)     Total                          Min: 0, Avg: 26.0, Max: 192, Diff: 192, Sum: 208, Workers: 8
+[2025-03-22T20:18:50.369+0530][2.820s][debug][gc,phases   ] GC(3)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.369+0530][2.820s][debug][gc,phases   ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.369+0530][2.820s][debug][gc,phases   ] GC(3)     Total                          Min: 0, Avg:  6.0, Max: 48, Diff: 48, Sum: 48, Workers: 8
+[2025-03-22T20:18:50.369+0530][2.820s][debug][gc,phases   ] GC(3)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.369+0530][2.821s][debug][gc,phases   ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.369+0530][2.821s][debug][gc,phases   ] GC(3)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.369+0530][2.821s][debug][gc,phases   ] GC(3)   StringTable Weak               Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.2, Workers: 8
+[2025-03-22T20:18:50.369+0530][2.821s][debug][gc,phases   ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Total                          Min: 0, Avg: 1832.6, Max: 2304, Diff: 2304, Sum: 14661, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Total                          Min: 0, Avg: 150.6, Max: 192, Diff: 192, Sum: 1205, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Total                          Min: 0, Avg:  1.4, Max: 11, Diff: 11, Sum: 11, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3) Weak Processing 1.090ms
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3) ClassLoaderData 0.014ms
+[2025-03-22T20:18:50.370+0530][2.821s][debug][gc,phases   ] GC(3) Trigger cleanups 0.000ms
+[2025-03-22T20:18:50.372+0530][2.823s][debug][gc,phases   ] GC(3) Class Unloading 1.682ms
+[2025-03-22T20:18:50.372+0530][2.823s][debug][gc,phases   ] GC(3) Flush Task Caches 0.016ms
+[2025-03-22T20:18:50.372+0530][2.823s][debug][gc,phases   ] GC(3) Update Remembered Set Tracking Before Rebuild 0.046ms
+[2025-03-22T20:18:50.372+0530][2.823s][debug][gc,phases   ] GC(3) Reclaim Empty Regions 0.043ms
+[2025-03-22T20:18:50.373+0530][2.824s][debug][gc,phases   ] GC(3) Purge Metaspace 0.635ms
+[2025-03-22T20:18:50.373+0530][2.824s][debug][gc,phases   ] GC(3) Report Object Count 0.001ms
+[2025-03-22T20:18:50.373+0530][2.824s][info ][gc          ] GC(3) Pause Remark 11M->11M(44M) 4.103ms
+[2025-03-22T20:18:50.373+0530][2.824s][info ][gc,cpu      ] GC(3) User=0.00s Sys=0.00s Real=0.00s
+[2025-03-22T20:18:50.373+0530][2.824s][info ][gc,marking  ] GC(3) Concurrent Mark 20.388ms
+[2025-03-22T20:18:50.373+0530][2.824s][info ][gc,marking  ] GC(3) Concurrent Rebuild Remembered Sets
+[2025-03-22T20:18:50.377+0530][2.828s][info ][gc,marking  ] GC(3) Concurrent Rebuild Remembered Sets 3.591ms
+[2025-03-22T20:18:50.378+0530][2.829s][info ][gc,start    ] GC(3) Pause Cleanup
+[2025-03-22T20:18:50.378+0530][2.829s][debug][gc,phases   ] GC(3) Update Remembered Set Tracking After Rebuild 0.010ms
+[2025-03-22T20:18:50.378+0530][2.829s][debug][gc,phases   ] GC(3) Finalize Concurrent Mark Cleanup 0.053ms
+[2025-03-22T20:18:50.378+0530][2.829s][info ][gc          ] GC(3) Pause Cleanup 11M->11M(44M) 0.237ms
+[2025-03-22T20:18:50.378+0530][2.829s][info ][gc,cpu      ] GC(3) User=0.00s Sys=0.00s Real=0.00s
+[2025-03-22T20:18:50.378+0530][2.829s][info ][gc,marking  ] GC(3) Concurrent Cleanup for Next Mark
+[2025-03-22T20:18:50.379+0530][2.830s][info ][gc,marking  ] GC(3) Concurrent Cleanup for Next Mark 0.655ms
+[2025-03-22T20:18:50.379+0530][2.830s][info ][gc          ] GC(3) Concurrent Mark Cycle 32.977ms
+[2025-03-22T20:18:51.290+0530][3.741s][info ][gc,start    ] GC(4) Pause Young (Prepare Mixed) (G1 Evacuation Pause)
+[2025-03-22T20:18:51.290+0530][3.741s][info ][gc,task     ] GC(4) Using 2 workers of 8 for evacuation
+[2025-03-22T20:18:51.305+0530][3.756s][info ][gc,phases   ] GC(4)   Pre Evacuate Collection Set: 0.1ms
+[2025-03-22T20:18:51.305+0530][3.756s][debug][gc,phases   ] GC(4)     Prepare TLABs: 0.0ms
+[2025-03-22T20:18:51.305+0530][3.756s][debug][gc,phases   ] GC(4)     Concatenate Dirty Card Logs: 0.0ms
+[2025-03-22T20:18:51.305+0530][3.756s][debug][gc,phases   ] GC(4)     Choose Collection Set: 0.0ms
+[2025-03-22T20:18:51.305+0530][3.756s][debug][gc,phases   ] GC(4)     Region Register: 0.1ms
+[2025-03-22T20:18:51.305+0530][3.756s][debug][gc,phases   ] GC(4)     Prepare Heap Roots: 0.0ms
+[2025-03-22T20:18:51.305+0530][3.756s][info ][gc,phases   ] GC(4)   Merge Heap Roots: 0.1ms
+[2025-03-22T20:18:51.305+0530][3.756s][debug][gc,phases   ] GC(4)     Prepare Merge Heap Roots: 0.0ms
+[2025-03-22T20:18:51.305+0530][3.756s][debug][gc,phases   ] GC(4)     Eager Reclaim (ms):            skipped
+[2025-03-22T20:18:51.305+0530][3.756s][debug][gc,phases   ] GC(4)     Remembered Sets (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.305+0530][3.756s][debug][gc,phases   ] GC(4)       Merged Sparse:                 Min: 1, Avg:  5.0, Max: 9, Diff: 8, Sum: 10, Workers: 2
+[2025-03-22T20:18:51.305+0530][3.756s][debug][gc,phases   ] GC(4)       Merged Fine:                   Min: 4, Avg:  5.5, Max: 7, Diff: 3, Sum: 11, Workers: 2
+[2025-03-22T20:18:51.305+0530][3.757s][debug][gc,phases   ] GC(4)       Merged Coarse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:51.305+0530][3.757s][debug][gc,phases   ] GC(4)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:51.305+0530][3.757s][debug][gc,phases   ] GC(4)     Hot Card Cache (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.305+0530][3.757s][debug][gc,phases   ] GC(4)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:51.305+0530][3.757s][debug][gc,phases   ] GC(4)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:51.305+0530][3.757s][debug][gc,phases   ] GC(4)     Log Buffers (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.305+0530][3.757s][debug][gc,phases   ] GC(4)       Dirty Cards:                   Min: 378, Avg: 463.5, Max: 549, Diff: 171, Sum: 927, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][info ][gc,phases   ] GC(4)   Evacuate Collection Set: 14.7ms
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)     Ext Root Scanning (ms):        Min:  0.5, Avg:  1.2, Max:  2.0, Diff:  1.5, Sum:  2.5, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)     Scan Heap Roots (ms):          Min:  0.1, Avg:  0.6, Max:  1.1, Diff:  0.9, Sum:  1.2, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       Scanned Cards:                 Min: 121, Avg: 471.0, Max: 821, Diff: 700, Sum: 942, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       Scanned Blocks:                Min: 61, Avg: 216.5, Max: 372, Diff: 311, Sum: 433, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       Claimed Chunks:                Min: 23, Avg: 72.5, Max: 122, Diff: 99, Sum: 145, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)     Code Root Scan (ms):           Min:  0.2, Avg:  0.4, Max:  0.5, Diff:  0.2, Sum:  0.7, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)     Object Copy (ms):              Min: 12.2, Avg: 12.4, Max: 12.6, Diff:  0.4, Sum: 24.8, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)     Termination (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       Termination Attempts:          Min: 1, Avg:  1.0, Max: 1, Diff: 0, Sum: 2, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)     GC Worker Other (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)     GC Worker Total (ms):          Min: 14.6, Avg: 14.6, Max: 14.6, Diff:  0.0, Sum: 29.3, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.757s][info ][gc,phases   ] GC(4)   Post Evacuate Collection Set: 0.4ms
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)     Code Roots Fixup: 0.0ms
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)     Reference Processing: 0.1ms
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)     Weak Processing: 0.2ms
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Total                          Min: 0, Avg: 32.8, Max: 192, Diff: 192, Sum: 262, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Total                          Min: 0, Avg:  6.4, Max: 51, Diff: 51, Sum: 51, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       StringTable Weak               Min:  0.0, Avg:  0.1, Max:  0.1, Diff:  0.1, Sum:  0.6, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Dead                           Min: 0, Avg:  0.9, Max: 4, Diff: 4, Sum: 7, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Total                          Min: 0, Avg: 2013.6, Max: 2816, Diff: 2816, Sum: 16109, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Dead                           Min: 0, Avg:  0.1, Max: 1, Diff: 1, Sum: 1, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Total                          Min: 0, Avg: 158.4, Max: 320, Diff: 320, Sum: 1267, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Total                          Min: 0, Avg:  0.9, Max: 7, Diff: 7, Sum: 7, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)       Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.757s][debug][gc,phases   ] GC(4)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.758s][debug][gc,phases   ] GC(4)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.306+0530][3.758s][debug][gc,phases   ] GC(4)     Post Evacuate Cleanup 1: 0.1ms
+[2025-03-22T20:18:51.306+0530][3.758s][debug][gc,phases   ] GC(4)       Merge Per-Thread State (ms):   Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:51.306+0530][3.758s][debug][gc,phases   ] GC(4)         Copied Bytes                   Min: 2938296, Avg: 3261168.0, Max: 3584040, Diff: 645744, Sum: 6522336, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.758s][debug][gc,phases   ] GC(4)         LAB Waste                      Min: 2368, Avg: 3120.0, Max: 3872, Diff: 1504, Sum: 6240, Workers: 2
+[2025-03-22T20:18:51.306+0530][3.758s][debug][gc,phases   ] GC(4)         LAB Undo Waste                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)       Clear Logged Cards (ms):       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)       Recalculate Used Memory (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)     Post Evacuate Cleanup 2: 0.1ms
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)       Reset Hot Card Cache (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)       Purge Code Roots (ms):         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)       Update Derived Pointers (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)       Redirty Logged Cards (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)         Redirtied Cards:               Min: 0, Avg: 1287.0, Max: 2574, Diff: 2574, Sum: 2574, Workers: 2
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)       Free Collection Set (ms):      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 2
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)     Rebuild Free List: 0.0ms
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)     Start New Collection Set: 0.0ms
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)     Resize TLABs: 0.0ms
+[2025-03-22T20:18:51.307+0530][3.758s][debug][gc,phases   ] GC(4)     Expand Heap After Collection: 0.0ms
+[2025-03-22T20:18:51.307+0530][3.758s][info ][gc,phases   ] GC(4)   Other: 0.2ms
+[2025-03-22T20:18:51.307+0530][3.758s][info ][gc,heap     ] GC(4) Eden regions: 20->0(1)
+[2025-03-22T20:18:51.307+0530][3.758s][info ][gc,heap     ] GC(4) Survivor regions: 6->2(4)
+[2025-03-22T20:18:51.307+0530][3.758s][info ][gc,heap     ] GC(4) Old regions: 5->10
+[2025-03-22T20:18:51.307+0530][3.758s][info ][gc,heap     ] GC(4) Archive regions: 0->0
+[2025-03-22T20:18:51.307+0530][3.758s][info ][gc,heap     ] GC(4) Humongous regions: 0->0
+[2025-03-22T20:18:51.307+0530][3.758s][info ][gc,metaspace] GC(4) Metaspace: 24012K(24384K)->24012K(24384K) NonClass: 20978K(21184K)->20978K(21184K) Class: 3033K(3200K)->3033K(3200K)
+[2025-03-22T20:18:51.307+0530][3.758s][info ][gc          ] GC(4) Pause Young (Prepare Mixed) (G1 Evacuation Pause) 30M->11M(44M) 17.318ms
+[2025-03-22T20:18:51.307+0530][3.758s][info ][gc,cpu      ] GC(4) User=0.03s Sys=0.00s Real=0.02s
+[2025-03-22T20:18:51.354+0530][3.805s][info ][gc,start    ] GC(5) Pause Young (Mixed) (G1 Evacuation Pause)
+[2025-03-22T20:18:51.354+0530][3.805s][info ][gc,task     ] GC(5) Using 2 workers of 8 for evacuation
+[2025-03-22T20:18:51.364+0530][3.815s][info ][gc,phases   ] GC(5)   Pre Evacuate Collection Set: 0.1ms
+[2025-03-22T20:18:51.364+0530][3.815s][debug][gc,phases   ] GC(5)     Prepare TLABs: 0.0ms
+[2025-03-22T20:18:51.364+0530][3.815s][debug][gc,phases   ] GC(5)     Concatenate Dirty Card Logs: 0.0ms
+[2025-03-22T20:18:51.364+0530][3.815s][debug][gc,phases   ] GC(5)     Choose Collection Set: 0.0ms
+[2025-03-22T20:18:51.364+0530][3.815s][debug][gc,phases   ] GC(5)     Region Register: 0.0ms
+[2025-03-22T20:18:51.364+0530][3.815s][debug][gc,phases   ] GC(5)     Prepare Heap Roots: 0.0ms
+[2025-03-22T20:18:51.364+0530][3.815s][info ][gc,phases   ] GC(5)   Merge Heap Roots: 0.1ms
+[2025-03-22T20:18:51.364+0530][3.815s][debug][gc,phases   ] GC(5)     Prepare Merge Heap Roots: 0.0ms
+[2025-03-22T20:18:51.364+0530][3.815s][debug][gc,phases   ] GC(5)     Eager Reclaim (ms):            skipped
+[2025-03-22T20:18:51.364+0530][3.816s][debug][gc,phases   ] GC(5)     Remembered Sets (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.364+0530][3.816s][debug][gc,phases   ] GC(5)       Merged Sparse:                 Min: 1, Avg:  2.5, Max: 4, Diff: 3, Sum: 5, Workers: 2
+[2025-03-22T20:18:51.364+0530][3.816s][debug][gc,phases   ] GC(5)       Merged Fine:                   Min: 4, Avg:  5.5, Max: 7, Diff: 3, Sum: 11, Workers: 2
+[2025-03-22T20:18:51.364+0530][3.816s][debug][gc,phases   ] GC(5)       Merged Coarse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)       Dirty Cards:                   Min: 95, Avg: 392.5, Max: 690, Diff: 595, Sum: 785, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     Hot Card Cache (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     Log Buffers (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)       Dirty Cards:                   Min: 499, Avg: 963.0, Max: 1427, Diff: 928, Sum: 1926, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)       Skipped Cards:                 Min: 5, Avg: 55.0, Max: 105, Diff: 100, Sum: 110, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][info ][gc,phases   ] GC(5)   Evacuate Collection Set: 9.6ms
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     Ext Root Scanning (ms):        Min:  0.7, Avg:  0.9, Max:  1.2, Diff:  0.4, Sum:  1.9, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     Scan Heap Roots (ms):          Min:  1.5, Avg:  2.6, Max:  3.6, Diff:  2.1, Sum:  5.1, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)       Scanned Cards:                 Min: 605, Avg: 1110.0, Max: 1615, Diff: 1010, Sum: 2220, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)       Scanned Blocks:                Min: 277, Avg: 479.0, Max: 681, Diff: 404, Sum: 958, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)       Claimed Chunks:                Min: 85, Avg: 146.0, Max: 207, Diff: 122, Sum: 292, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     Code Root Scan (ms):           Min:  0.1, Avg:  0.4, Max:  0.7, Diff:  0.6, Sum:  0.8, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     Object Copy (ms):              Min:  4.1, Avg:  5.4, Max:  6.6, Diff:  2.5, Sum: 10.7, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     Termination (ms):              Min:  0.0, Avg:  0.3, Max:  0.5, Diff:  0.5, Sum:  0.5, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)       Termination Attempts:          Min: 1, Avg:  1.0, Max: 1, Diff: 0, Sum: 2, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     GC Worker Other (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     GC Worker Total (ms):          Min:  9.6, Avg:  9.6, Max:  9.6, Diff:  0.0, Sum: 19.2, Workers: 2
+[2025-03-22T20:18:51.365+0530][3.816s][info ][gc,phases   ] GC(5)   Post Evacuate Collection Set: 0.4ms
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     Code Roots Fixup: 0.0ms
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     Reference Processing: 0.1ms
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)     Weak Processing: 0.1ms
+[2025-03-22T20:18:51.365+0530][3.816s][debug][gc,phases   ] GC(5)       VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.365+0530][3.817s][debug][gc,phases   ] GC(5)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.365+0530][3.817s][debug][gc,phases   ] GC(5)         Total                          Min: 0, Avg: 37.4, Max: 128, Diff: 128, Sum: 299, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)       ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Total                          Min: 0, Avg:  6.4, Max: 51, Diff: 51, Sum: 51, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)       JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)       StringTable Weak               Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.1, Sum:  0.3, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Dead                           Min: 0, Avg:  0.2, Max: 2, Diff: 2, Sum: 2, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Total                          Min: 0, Avg: 2029.1, Max: 3200, Diff: 3200, Sum: 16233, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)       ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Dead                           Min: 0, Avg:  0.1, Max: 1, Diff: 1, Sum: 1, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Total                          Min: 0, Avg: 173.1, Max: 320, Diff: 320, Sum: 1385, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)       JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Total                          Min: 0, Avg:  0.9, Max: 7, Diff: 7, Sum: 7, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)       StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)       StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)       StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)       Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.817s][debug][gc,phases   ] GC(5)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.818s][debug][gc,phases   ] GC(5)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:51.366+0530][3.818s][debug][gc,phases   ] GC(5)     Post Evacuate Cleanup 1: 0.1ms
+[2025-03-22T20:18:51.366+0530][3.818s][debug][gc,phases   ] GC(5)       Merge Per-Thread State (ms):   Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:51.366+0530][3.818s][debug][gc,phases   ] GC(5)         Copied Bytes                   Min: 808480, Avg: 1200604.0, Max: 1592728, Diff: 784248, Sum: 2401208, Workers: 2
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)         LAB Waste                      Min: 56, Avg: 216.0, Max: 376, Diff: 320, Sum: 432, Workers: 2
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)         LAB Undo Waste                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)       Clear Logged Cards (ms):       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)       Recalculate Used Memory (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)     Post Evacuate Cleanup 2: 0.1ms
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)       Reset Hot Card Cache (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)       Purge Code Roots (ms):         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)       Update Derived Pointers (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)       Redirty Logged Cards (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)         Redirtied Cards:               Min: 0, Avg: 74.5, Max: 149, Diff: 149, Sum: 149, Workers: 2
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)       Free Collection Set (ms):      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)     Rebuild Free List: 0.0ms
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)     Start New Collection Set: 0.0ms
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)     Resize TLABs: 0.0ms
+[2025-03-22T20:18:51.367+0530][3.818s][debug][gc,phases   ] GC(5)     Expand Heap After Collection: 0.0ms
+[2025-03-22T20:18:51.367+0530][3.818s][info ][gc,phases   ] GC(5)   Other: 0.2ms
+[2025-03-22T20:18:51.367+0530][3.818s][info ][gc,heap     ] GC(5) Eden regions: 1->0(18)
+[2025-03-22T20:18:51.367+0530][3.818s][info ][gc,heap     ] GC(5) Survivor regions: 2->1(1)
+[2025-03-22T20:18:51.367+0530][3.818s][info ][gc,heap     ] GC(5) Old regions: 10->12
+[2025-03-22T20:18:51.367+0530][3.818s][info ][gc,heap     ] GC(5) Archive regions: 0->0
+[2025-03-22T20:18:51.367+0530][3.818s][info ][gc,heap     ] GC(5) Humongous regions: 0->0
+[2025-03-22T20:18:51.367+0530][3.818s][info ][gc,metaspace] GC(5) Metaspace: 24192K(24640K)->24192K(24640K) NonClass: 21122K(21376K)->21122K(21376K) Class: 3069K(3264K)->3069K(3264K)
+[2025-03-22T20:18:51.367+0530][3.818s][info ][gc          ] GC(5) Pause Young (Mixed) (G1 Evacuation Pause) 12M->11M(44M) 13.630ms
+[2025-03-22T20:18:51.367+0530][3.818s][info ][gc,cpu      ] GC(5) User=0.00s Sys=0.00s Real=0.01s
+[2025-03-22T20:18:52.235+0530][4.687s][info ][gc,start    ] GC(6) Pause Young (Normal) (G1 Evacuation Pause)
+[2025-03-22T20:18:52.236+0530][4.687s][info ][gc,task     ] GC(6) Using 2 workers of 8 for evacuation
+[2025-03-22T20:18:52.246+0530][4.697s][info ][gc,phases   ] GC(6)   Pre Evacuate Collection Set: 0.1ms
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)     Prepare TLABs: 0.0ms
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)     Concatenate Dirty Card Logs: 0.0ms
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)     Choose Collection Set: 0.0ms
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)     Region Register: 0.0ms
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)     Prepare Heap Roots: 0.0ms
+[2025-03-22T20:18:52.246+0530][4.697s][info ][gc,phases   ] GC(6)   Merge Heap Roots: 0.1ms
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)     Prepare Merge Heap Roots: 0.0ms
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)     Eager Reclaim (ms):            skipped
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)     Remembered Sets (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)       Merged Sparse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)       Merged Fine:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:52.246+0530][4.697s][debug][gc,phases   ] GC(6)       Merged Coarse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:52.246+0530][4.698s][debug][gc,phases   ] GC(6)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:52.246+0530][4.698s][debug][gc,phases   ] GC(6)     Hot Card Cache (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:52.246+0530][4.698s][debug][gc,phases   ] GC(6)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:52.246+0530][4.698s][debug][gc,phases   ] GC(6)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:52.246+0530][4.698s][debug][gc,phases   ] GC(6)     Log Buffers (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:52.246+0530][4.698s][debug][gc,phases   ] GC(6)       Dirty Cards:                   Min: 612, Avg: 668.5, Max: 725, Diff: 113, Sum: 1337, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][info ][gc,phases   ] GC(6)   Evacuate Collection Set: 9.7ms
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)     Ext Root Scanning (ms):        Min:  0.6, Avg:  0.7, Max:  0.8, Diff:  0.1, Sum:  1.4, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)     Scan Heap Roots (ms):          Min:  4.3, Avg:  4.7, Max:  5.1, Diff:  0.8, Sum:  9.4, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       Scanned Cards:                 Min: 578, Avg: 676.0, Max: 774, Diff: 196, Sum: 1352, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       Scanned Blocks:                Min: 295, Avg: 364.5, Max: 434, Diff: 139, Sum: 729, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       Claimed Chunks:                Min: 101, Avg: 128.5, Max: 156, Diff: 55, Sum: 257, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)     Code Root Scan (ms):           Min:  0.0, Avg:  0.1, Max:  0.1, Diff:  0.1, Sum:  0.1, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)     Object Copy (ms):              Min:  3.8, Avg:  4.2, Max:  4.6, Diff:  0.8, Sum:  8.3, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)     Termination (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       Termination Attempts:          Min: 1, Avg:  1.0, Max: 1, Diff: 0, Sum: 2, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)     GC Worker Other (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)     GC Worker Total (ms):          Min:  9.6, Avg:  9.6, Max:  9.6, Diff:  0.0, Sum: 19.3, Workers: 2
+[2025-03-22T20:18:52.247+0530][4.698s][info ][gc,phases   ] GC(6)   Post Evacuate Collection Set: 0.6ms
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)     Code Roots Fixup: 0.0ms
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)     Reference Processing: 0.1ms
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)     Weak Processing: 0.1ms
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Total                          Min: 0, Avg: 42.8, Max: 214, Diff: 214, Sum: 342, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Total                          Min: 0, Avg:  6.4, Max: 51, Diff: 51, Sum: 51, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       StringTable Weak               Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.1, Sum:  0.4, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Dead                           Min: 0, Avg:  2.0, Max: 6, Diff: 6, Sum: 16, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Total                          Min: 0, Avg: 2379.0, Max: 2944, Diff: 2944, Sum: 19032, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Dead                           Min: 0, Avg:  0.1, Max: 1, Diff: 1, Sum: 1, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Total                          Min: 0, Avg: 219.2, Max: 320, Diff: 320, Sum: 1754, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)       Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.698s][debug][gc,phases   ] GC(6)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:18:52.247+0530][4.699s][debug][gc,phases   ] GC(6)     Post Evacuate Cleanup 1: 0.1ms
+[2025-03-22T20:18:52.247+0530][4.699s][debug][gc,phases   ] GC(6)       Merge Per-Thread State (ms):   Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:52.247+0530][4.699s][debug][gc,phases   ] GC(6)         Copied Bytes                   Min: 800752, Avg: 1037692.0, Max: 1274632, Diff: 473880, Sum: 2075384, Workers: 2
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)         LAB Waste                      Min: 384, Avg: 1368.0, Max: 2352, Diff: 1968, Sum: 2736, Workers: 2
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)         LAB Undo Waste                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 2
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)       Clear Logged Cards (ms):       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)       Recalculate Used Memory (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)     Post Evacuate Cleanup 2: 0.1ms
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)       Reset Hot Card Cache (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)       Purge Code Roots (ms):         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)       Update Derived Pointers (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)       Redirty Logged Cards (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)         Redirtied Cards:               Min: 512, Avg: 630.5, Max: 749, Diff: 237, Sum: 1261, Workers: 2
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)       Free Collection Set (ms):      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 2
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)     Rebuild Free List: 0.0ms
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)     Start New Collection Set: 0.0ms
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)     Resize TLABs: 0.0ms
+[2025-03-22T20:18:52.248+0530][4.699s][debug][gc,phases   ] GC(6)     Expand Heap After Collection: 0.2ms
+[2025-03-22T20:18:52.248+0530][4.699s][info ][gc,phases   ] GC(6)   Other: 0.2ms
+[2025-03-22T20:18:52.248+0530][4.699s][info ][gc,heap     ] GC(6) Eden regions: 18->0(36)
+[2025-03-22T20:18:52.248+0530][4.699s][info ][gc,heap     ] GC(6) Survivor regions: 1->3(3)
+[2025-03-22T20:18:52.248+0530][4.699s][info ][gc,heap     ] GC(6) Old regions: 12->12
+[2025-03-22T20:18:52.248+0530][4.699s][info ][gc,heap     ] GC(6) Archive regions: 0->0
+[2025-03-22T20:18:52.248+0530][4.699s][info ][gc,heap     ] GC(6) Humongous regions: 0->0
+[2025-03-22T20:18:52.248+0530][4.699s][info ][gc,metaspace] GC(6) Metaspace: 28167K(28608K)->28167K(28608K) NonClass: 24609K(24832K)->24609K(24832K) Class: 3558K(3776K)->3558K(3776K)
+[2025-03-22T20:18:52.248+0530][4.699s][info ][gc          ] GC(6) Pause Young (Normal) (G1 Evacuation Pause) 29M->13M(71M) 12.482ms
+[2025-03-22T20:18:52.248+0530][4.699s][info ][gc,cpu      ] GC(6) User=0.00s Sys=0.00s Real=0.01s
+[2025-03-22T20:19:40.889+0530][53.340s][info ][gc,start    ] GC(7) Pause Young (Normal) (G1 Evacuation Pause)
+[2025-03-22T20:19:40.889+0530][53.340s][info ][gc,task     ] GC(7) Using 8 workers of 8 for evacuation
+[2025-03-22T20:19:40.898+0530][53.349s][info ][gc,phases   ] GC(7)   Pre Evacuate Collection Set: 0.2ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Prepare TLABs: 0.0ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Concatenate Dirty Card Logs: 0.0ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Choose Collection Set: 0.0ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Region Register: 0.2ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Prepare Heap Roots: 0.0ms
+[2025-03-22T20:19:40.898+0530][53.349s][info ][gc,phases   ] GC(7)   Merge Heap Roots: 0.1ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Prepare Merge Heap Roots: 0.0ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Eager Reclaim (ms):            skipped
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Remembered Sets (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Merged Sparse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Merged Fine:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Merged Coarse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Hot Card Cache (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Log Buffers (ms):              Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Dirty Cards:                   Min: 7, Avg: 304.5, Max: 963, Diff: 956, Sum: 2436, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][info ][gc,phases   ] GC(7)   Evacuate Collection Set: 7.2ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Ext Root Scanning (ms):        Min:  3.5, Avg:  3.9, Max:  4.4, Diff:  0.9, Sum: 31.2, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Scan Heap Roots (ms):          Min:  0.0, Avg:  0.4, Max:  0.8, Diff:  0.8, Sum:  3.5, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Scanned Cards:                 Min: 0, Avg: 312.5, Max: 519, Diff: 519, Sum: 2500, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Scanned Blocks:                Min: 0, Avg: 139.8, Max: 232, Diff: 232, Sum: 1118, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Claimed Chunks:                Min: 0, Avg: 43.6, Max: 93, Diff: 93, Sum: 349, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Code Root Scan (ms):           Min:  0.0, Avg:  0.1, Max:  0.3, Diff:  0.3, Sum:  0.6, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Object Copy (ms):              Min:  2.0, Avg:  2.5, Max:  3.0, Diff:  1.0, Sum: 19.9, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Termination (ms):              Min:  0.0, Avg:  0.2, Max:  0.2, Diff:  0.2, Sum:  1.2, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       Termination Attempts:          Min: 1, Avg:  2.0, Max: 3, Diff: 2, Sum: 16, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     GC Worker Other (ms):          Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.0, Sum:  0.2, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     GC Worker Total (ms):          Min:  7.0, Avg:  7.1, Max:  7.2, Diff:  0.2, Sum: 56.7, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][info ][gc,phases   ] GC(7)   Post Evacuate Collection Set: 1.0ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Code Roots Fixup: 0.0ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Reference Processing: 0.1ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)     Weak Processing: 0.2ms
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)       VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.349s][debug][gc,phases   ] GC(7)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Total                          Min: 0, Avg: 55.4, Max: 384, Diff: 384, Sum: 443, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)       ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Total                          Min: 0, Avg:  6.5, Max: 52, Diff: 52, Sum: 52, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)       JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)       StringTable Weak               Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.0, Sum:  0.6, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Dead                           Min: 0, Avg:  3.6, Max: 9, Diff: 9, Sum: 29, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Total                          Min: 2176, Avg: 2795.6, Max: 3840, Diff: 1664, Sum: 22365, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)       ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Dead                           Min: 0, Avg:  1.1, Max: 4, Diff: 4, Sum: 9, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Total                          Min: 128, Avg: 261.6, Max: 384, Diff: 256, Sum: 2093, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)       JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)       StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)       StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)       StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)       Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.898+0530][53.350s][debug][gc,phases   ] GC(7)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)     Post Evacuate Cleanup 1: 0.3ms
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)       Merge Per-Thread State (ms):   Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)         Copied Bytes                   Min: 401152, Avg: 665457.0, Max: 976256, Diff: 575104, Sum: 5323656, Workers: 8
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)         LAB Waste                      Min: 352, Avg: 588.0, Max: 1096, Diff: 744, Sum: 4704, Workers: 8
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)         LAB Undo Waste                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)       Clear Logged Cards (ms):       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)       Recalculate Used Memory (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)     Post Evacuate Cleanup 2: 0.1ms
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)       Reset Hot Card Cache (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)       Purge Code Roots (ms):         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)       Update Derived Pointers (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)       Redirty Logged Cards (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)         Redirtied Cards:               Min: 0, Avg: 295.1, Max: 1960, Diff: 1960, Sum: 2361, Workers: 8
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)       Free Collection Set (ms):      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 8
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)     Rebuild Free List: 0.3ms
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)     Start New Collection Set: 0.0ms
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)     Resize TLABs: 0.0ms
+[2025-03-22T20:19:40.899+0530][53.350s][debug][gc,phases   ] GC(7)     Expand Heap After Collection: 0.0ms
+[2025-03-22T20:19:40.899+0530][53.350s][info ][gc,phases   ] GC(7)   Other: 0.1ms
+[2025-03-22T20:19:40.899+0530][53.350s][info ][gc,heap     ] GC(7) Eden regions: 36->0(34)
+[2025-03-22T20:19:40.899+0530][53.350s][info ][gc,heap     ] GC(7) Survivor regions: 3->5(5)
+[2025-03-22T20:19:40.899+0530][53.350s][info ][gc,heap     ] GC(7) Old regions: 12->12
+[2025-03-22T20:19:40.899+0530][53.350s][info ][gc,heap     ] GC(7) Archive regions: 0->0
+[2025-03-22T20:19:40.899+0530][53.350s][info ][gc,heap     ] GC(7) Humongous regions: 0->0
+[2025-03-22T20:19:40.899+0530][53.350s][info ][gc,metaspace] GC(7) Metaspace: 34248K(34752K)->34248K(34752K) NonClass: 29947K(30208K)->29947K(30208K) Class: 4300K(4544K)->4300K(4544K)
+[2025-03-22T20:19:40.899+0530][53.350s][info ][gc          ] GC(7) Pause Young (Normal) (G1 Evacuation Pause) 49M->16M(71M) 9.991ms
+[2025-03-22T20:19:40.899+0530][53.350s][info ][gc,cpu      ] GC(7) User=0.00s Sys=0.00s Real=0.01s
+[2025-03-22T20:23:15.651+0530][268.102s][info ][gc,start    ] GC(8) Pause Young (Normal) (G1 Evacuation Pause)
+[2025-03-22T20:23:15.651+0530][268.102s][info ][gc,task     ] GC(8) Using 8 workers of 8 for evacuation
+[2025-03-22T20:23:15.655+0530][268.106s][info ][gc,phases   ] GC(8)   Pre Evacuate Collection Set: 0.1ms
+[2025-03-22T20:23:15.655+0530][268.106s][debug][gc,phases   ] GC(8)     Prepare TLABs: 0.0ms
+[2025-03-22T20:23:15.655+0530][268.106s][debug][gc,phases   ] GC(8)     Concatenate Dirty Card Logs: 0.0ms
+[2025-03-22T20:23:15.655+0530][268.106s][debug][gc,phases   ] GC(8)     Choose Collection Set: 0.0ms
+[2025-03-22T20:23:15.655+0530][268.106s][debug][gc,phases   ] GC(8)     Region Register: 0.1ms
+[2025-03-22T20:23:15.655+0530][268.106s][debug][gc,phases   ] GC(8)     Prepare Heap Roots: 0.0ms
+[2025-03-22T20:23:15.655+0530][268.106s][info ][gc,phases   ] GC(8)   Merge Heap Roots: 0.3ms
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Prepare Merge Heap Roots: 0.0ms
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Eager Reclaim (ms):            skipped
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Remembered Sets (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Merged Sparse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Merged Fine:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Merged Coarse:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Hot Card Cache (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Dirty Cards:                   Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Log Buffers (ms):              Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.1, Sum:  0.1, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Dirty Cards:                   Min: 0, Avg: 295.2, Max: 1430, Diff: 1430, Sum: 2362, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Skipped Cards:                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][info ][gc,phases   ] GC(8)   Evacuate Collection Set: 3.5ms
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Ext Root Scanning (ms):        Min:  0.0, Avg:  0.2, Max:  1.0, Diff:  1.0, Sum:  1.5, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Scan Heap Roots (ms):          Min:  0.0, Avg:  0.4, Max:  0.7, Diff:  0.7, Sum:  3.6, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Scanned Cards:                 Min: 0, Avg: 294.4, Max: 611, Diff: 611, Sum: 2355, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Scanned Blocks:                Min: 0, Avg: 138.5, Max: 261, Diff: 261, Sum: 1108, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Claimed Chunks:                Min: 0, Avg: 42.1, Max: 95, Diff: 95, Sum: 337, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Code Root Scan (ms):           Min:  0.0, Avg:  0.1, Max:  0.3, Diff:  0.3, Sum:  0.8, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Object Copy (ms):              Min:  2.3, Avg:  2.5, Max:  2.8, Diff:  0.5, Sum: 20.3, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Termination (ms):              Min:  0.0, Avg:  0.1, Max:  0.1, Diff:  0.1, Sum:  0.4, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       Termination Attempts:          Min: 1, Avg:  1.6, Max: 3, Diff: 2, Sum: 13, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     GC Worker Other (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.2, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     GC Worker Total (ms):          Min:  3.3, Avg:  3.4, Max:  3.4, Diff:  0.1, Sum: 26.8, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][info ][gc,phases   ] GC(8)   Post Evacuate Collection Set: 0.9ms
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Code Roots Fixup: 0.0ms
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Reference Processing: 0.0ms
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)     Weak Processing: 0.2ms
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)         Total                          Min: 0, Avg: 55.5, Max: 384, Diff: 384, Sum: 444, Workers: 8
+[2025-03-22T20:23:15.655+0530][268.107s][debug][gc,phases   ] GC(8)       ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Total                          Min: 0, Avg:  0.5, Max: 4, Diff: 4, Sum: 4, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       StringTable Weak               Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.1, Sum:  0.6, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Dead                           Min: 0, Avg:  0.6, Max: 5, Diff: 5, Sum: 5, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Total                          Min: 1600, Avg: 2814.4, Max: 4723, Diff: 3123, Sum: 22515, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Dead                           Min: 0, Avg:  0.2, Max: 2, Diff: 2, Sum: 2, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Total                          Min: 0, Avg: 260.2, Max: 422, Diff: 422, Sum: 2082, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)     Post Evacuate Cleanup 1: 0.2ms
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       Merge Per-Thread State (ms):   Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Copied Bytes                   Min: 513200, Avg: 661354.0, Max: 818696, Diff: 305496, Sum: 5290832, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         LAB Waste                      Min: 3968, Avg: 5350.0, Max: 8880, Diff: 4912, Sum: 42800, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         LAB Undo Waste                 Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       Clear Logged Cards (ms):       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 3
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       Recalculate Used Memory (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)     Post Evacuate Cleanup 2: 0.1ms
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       Reset Hot Card Cache (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       Purge Code Roots (ms):         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       Update Derived Pointers (ms):  Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       Redirty Logged Cards (ms):     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)         Redirtied Cards:               Min: 0, Avg:  6.9, Max: 30, Diff: 30, Sum: 55, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.107s][debug][gc,phases   ] GC(8)       Free Collection Set (ms):      Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.1, Sum:  0.2, Workers: 8
+[2025-03-22T20:23:15.656+0530][268.108s][debug][gc,phases   ] GC(8)     Rebuild Free List: 0.2ms
+[2025-03-22T20:23:15.656+0530][268.108s][debug][gc,phases   ] GC(8)     Start New Collection Set: 0.0ms
+[2025-03-22T20:23:15.656+0530][268.108s][debug][gc,phases   ] GC(8)     Resize TLABs: 0.0ms
+[2025-03-22T20:23:15.656+0530][268.108s][debug][gc,phases   ] GC(8)     Expand Heap After Collection: 0.0ms
+[2025-03-22T20:23:15.656+0530][268.108s][info ][gc,phases   ] GC(8)   Other: 0.2ms
+[2025-03-22T20:23:15.656+0530][268.108s][info ][gc,heap     ] GC(8) Eden regions: 34->0(36)
+[2025-03-22T20:23:15.656+0530][268.108s][info ][gc,heap     ] GC(8) Survivor regions: 5->1(5)
+[2025-03-22T20:23:15.656+0530][268.108s][info ][gc,heap     ] GC(8) Old regions: 12->17
+[2025-03-22T20:23:15.656+0530][268.108s][info ][gc,heap     ] GC(8) Archive regions: 0->0
+[2025-03-22T20:23:15.656+0530][268.108s][info ][gc,heap     ] GC(8) Humongous regions: 0->0
+[2025-03-22T20:23:15.656+0530][268.108s][info ][gc,metaspace] GC(8) Metaspace: 34416K(34944K)->34416K(34944K) NonClass: 30115K(30400K)->30115K(30400K) Class: 4301K(4544K)->4301K(4544K)
+[2025-03-22T20:23:15.656+0530][268.108s][info ][gc          ] GC(8) Pause Young (Normal) (G1 Evacuation Pause) 50M->17M(71M) 6.100ms
+[2025-03-22T20:23:15.656+0530][268.108s][info ][gc,cpu      ] GC(8) User=0.00s Sys=0.00s Real=0.00s
