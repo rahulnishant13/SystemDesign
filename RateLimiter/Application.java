@@ -79,5 +79,21 @@ public class Application {
             }
 //            Thread.sleep(500);
         }
+
+        System.out.println("\n leaky bucket");
+
+        // =========================================================================================
+
+        LeakyBucket leakyRateLimiter = LeakyBucket.getInstance(10, 500); // leakRateMillis = 1000/2 = 500
+        String clientIdL = "user123";
+
+        for (int i = 0; i < 30; i++) {
+            if (leakyRateLimiter.grantAccess(clientIdL)) {
+                System.out.println("Request " + (i + 1) + " allowed at " + System.currentTimeMillis());
+            } else {
+                System.out.println("Request " + (i + 1) + " blocked at " + System.currentTimeMillis());
+            }
+            Thread.sleep(200); // Simulate requests
+        }
     }
 }
